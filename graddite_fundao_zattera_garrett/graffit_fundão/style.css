@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria .fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria .fotos img {
+    width: 30%;
+    margin: 1%;
+}
+
+.sobre, .produtos, .contato {
+    margin: 2em 0;
+}
+
+.produtos h2, .produtos h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.produto-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.produto-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
